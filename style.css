@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+body{
+    background-color: #1d1d1d;
+    height: 100vh;
+    color:#ffffff;
+}
+section .navbar{
+    /* border: 2px solid yellow; */
+    background-color: #000000;
+    padding: 5px 10px;
+    height: 60px;
+    width:100%;
+    /* margin-left: 38px; */
+    
+}
+.container{
+    position: relative;
+    background: url("./assets/bg.png" ) no-repeat center  ;
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    overflow: hidden;
+    
+}
+
+.navbar{
+    display: block;
+}
+.logo{
+    height:30px;
+    position: absolute;
+    display: block;
+    left: 150px;
+    top: 15px;
+}
+.line{
+    position: absolute;
+    border-left: 1px solid white;
+    height: 40px;
+    left: 300px;
+    top:10px;
+}
+
+.list li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.list :first-child::after {content: "  v";}  
+
+.button-small{
+    border: none;
+    border-radius: 6px;
+    background-color: #8818b8;
+    color: #ffffff;
+    font-family: Poppins;
+    position: absolute;
+    padding: 5px 30px;
+
+    right: 200px;
+    top: 20px;
+}
+.grow-list{
+    position:absolute;
+    display:block;
+    width: 600px;
+    left: 350px;
+    top: 5px;
+
+}
+
+.hero{
+    /* border: 2px solid red; */
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin:80px auto;
+}
+
+.hero-heading{
+    font-size: 70px;
+    font-weight:800;
+    font-family: Montserrat;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-description{
+    width: 600px;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 500;
+    color:#ffffff;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.button-large{
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: 50px auto;
+    padding: 15px 60px;
+    background-color: #8818b8;
+    color: #ffffff;
+    font-family: Poppins;
+    font-weight: 700;
+}
